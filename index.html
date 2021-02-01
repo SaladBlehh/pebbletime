@@ -5,6 +5,7 @@
 	<style type="text/css">
 		body {
 			font-size: 64px;
+			background-image: url('https://thumbs.gfycat.com/DangerousWeakBonobo-size_restricted.gif');
 		}
 		.container {
 			position: absolute;
@@ -13,13 +14,26 @@
 			-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 		}
+		p {
+			animation: color-change 0.5s infinite;
+		}
+
+		@keyframes color-change {
+			0% { color: red; }
+			20% { color: pink; }
+			40% { color: blue; }
+			60% { color: yellow; }
+			80% { color: purple; }
+			100% { color: red; }
+		}
 	</style>
 </head>
 </head>
 <body>
 	<div class="container">
 		<p id="main">Is pebble gf yet?</p>
-		<p id="bool"><strong>NO</strong></p>
+		<p id="bool"><strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp YES</strong></p>
 	</div>
+
 </body>
 </html>
